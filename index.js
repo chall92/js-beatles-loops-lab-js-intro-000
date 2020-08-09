@@ -4,7 +4,7 @@ var aaa = ``;
   for(let i = 0; i < musician.length; i++) {
     aaa.push(musician[i] +` plays ` +instrument[i]);
   }
-  return theBeatlesPlay;
+  return aaa;
 }
 
 function johnLennonFacts(fact) {
