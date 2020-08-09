@@ -19,9 +19,7 @@ const i = 0
 function iLoveTheBeatles(n) {
 var iLoveTheBeatles = [];
   do {
-    iLoveTheBeatles.push(`I love the Beatles!`)
-    n++
-
+      iLoveTheBeatles.push(`I love the Beatles!`)
   } while(n < 15)
   return ILoveTheBeatles
 }
