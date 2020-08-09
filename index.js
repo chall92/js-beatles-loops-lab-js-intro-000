@@ -5,10 +5,9 @@ function theBeatlesPlay(musician, instrument) {
   } return beatlesPlay;
 }
 
-var i = 0
-
 function johnLennonFacts(fact) {
 var johnLennonFacts = [];
+var i = 0;
 while(johnLennonFacts.length < fact.length) {
     johnLennonFacts.push(fact[i] + '!!!');
     i++;
