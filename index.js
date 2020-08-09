@@ -20,9 +20,9 @@ function increment() {
   i = i + 1; return i;
 }
 
-function iLoveTheBeatles(num) {
+function iLoveTheBeatles(n) {
   do {
     increment()
     return `I love the Beatles!`
-  } while(increment() <= num)
+  } while(increment() < n)
 }
