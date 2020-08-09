@@ -5,7 +5,9 @@ function theBeatlesPlay(musician, instrument) {
   } return beatlesPlay;
 }
 function johnLennonFacts(fact) {
-
+while() {
+  return `${fact}!!!`
+}
 }
 
 function iLoveTheBeatles(num) {
