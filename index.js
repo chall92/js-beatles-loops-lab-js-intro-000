@@ -4,6 +4,7 @@ function theBeatlesPlay(musician, instrument) {
     beatlesPlay.push(musician[i] + ` plays ` + instrument[i]);
   } return beatlesPlay;
 }
+
 function johnLennonFacts(fact) {
 var johnLennonFacts = [];
 var i = 0;
