@@ -15,6 +15,9 @@ while(johnLennonFacts.length < fact.length) {
 }
 
 function iLoveTheBeatles(n) {
+var iLoveTheBeatles = [];
+
+
   do {
     return `I love the Beatles!`;
   } while();
