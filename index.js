@@ -18,7 +18,4 @@ while(johnLennonFacts.length < fact.length) {
 
 function iLoveTheBeatles(num) {
 var iLoveTheBeatles = []
-do() {
-  while()
-}
 }
