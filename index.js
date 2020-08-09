@@ -14,6 +14,14 @@ while(johnLennonFacts.length < fact.length) {
   } return johnLennonFacts;
 }
 
-function iLoveTheBeatles(num) {
+function increment() {
+  i = i + 1; return i;
+}
 
+function iLoveTheBeatles(num) {
+  do {
+    increment()
+    return `I love the Beatles!`
+  } while(increment() <= num)
+  i = 0
 }
