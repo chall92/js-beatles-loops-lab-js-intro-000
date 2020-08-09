@@ -1,8 +1,8 @@
 
 function theBeatlesPlay(musician, instrument) {
-var theBeatlesPlay = ``;
+var aaa = ``;
   for(let i = 0; i < musician.length; i++) {
-    theBeatlesPlay.push(musician[i] +` plays ` +instrument[i] +'.');
+    aaa.push(musician[i] +` plays ` +instrument[i] +'.');
   }
   return theBeatlesPlay;
 }
