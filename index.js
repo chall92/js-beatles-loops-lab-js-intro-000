@@ -14,6 +14,8 @@ while(johnLennonFacts.length < fact.length) {
   } return johnLennonFacts;
 }
 
+let i = 0
+
 function increment() {
   i = i + 1; return i;
 }
@@ -23,5 +25,4 @@ function iLoveTheBeatles(num) {
     increment()
     return `I love the Beatles!`
   } while(increment() <= num)
-  i = 0
 }
