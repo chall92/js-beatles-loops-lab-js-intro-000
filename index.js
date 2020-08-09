@@ -24,5 +24,5 @@ function iLoveTheBeatles(n) {
   do {
     increment()
     return `I love the Beatles!`
-  } while(n <= 7 ? `${increment()}`)
+  } while(n <= 7 ? `${increment()}` : '')
 }
