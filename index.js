@@ -19,5 +19,5 @@ let i = 0;
   do {
     i++;
     return `I love the Beatles!`;
-  } while(i <= n);
+  } while(i <= 7 || i >= 17);
 }
