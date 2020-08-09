@@ -1,12 +1,11 @@
 
-  function theBeatlesPlay(musician, instrument) {
-    var BeatlesPlay = ``;
-    for (var i = 0; i < musician.length; i++) {
-      BeatlesPlay.push(musician[i] + " plays " + instrument[i]);
-    }
-    return BeatlesPlay;
+function theBeatlesPlay(musicians, instruments) {
+  var array = [];
+  for (var i = 0; i < musicians.length; i++) {
+    array.push(musicians[i] + " plays " + instruments[i]);
   }
-
+  return array;
+}
 function johnLennonFacts(fact) {
 
 }
