@@ -14,8 +14,6 @@ while(johnLennonFacts.length < fact.length) {
   } return johnLennonFacts;
 }
 
-const i = 0
-
 function iLoveTheBeatles(n) {
 var iLoveTheBeatles = [];
   do {
