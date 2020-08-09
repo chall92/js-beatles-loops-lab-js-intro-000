@@ -1,6 +1,6 @@
 
 function theBeatlesPlay(musician, instrument) {
-var aaa = [];
+var aaa = ``;
   for(let i = 0; i < musician.length; i++) {
     aaa.push(musician[i] +` plays ` +instrument[i] +'.');
   }
